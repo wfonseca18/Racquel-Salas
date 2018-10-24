@@ -11,6 +11,10 @@ ul {
     background-color: #f3f3f3;
 }
 
+h1 a:hover:not(.active) {
+    text-decoration: none;
+}
+
 li a {
     color: black;
     display: block;
@@ -19,6 +23,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #ddd;
+    text-decoration: none;
 }
 
 
