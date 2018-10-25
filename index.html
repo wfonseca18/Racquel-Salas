@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-sm-8">
                     <nav>
-                        <ul class="navbar">
+                        <ul class="navbar px-3">
                             <li>
                                 <a href="#">About Me</a>
                             </li>
@@ -34,36 +34,53 @@
                             <li>
                                 <a href="#">Projects</a>
                             </li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="display: none;">
+                                <i class="fa fa-bars"></i>
+                            </a>
                         </ul>
                     </nav>
                 </div>
             </div>
-
             <div class="container border border-dark panel">
                 <div>
                     <h2>About Me</h2>
                 </div>
                 <p>
-                    Random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text 
-                    random text random text random text random text random text random text random text random text random text
+                    Random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
+                    random text random text random text random text random text random text random text random text
+                    random text
                 </p>
             </div>
-
         </div>
-
-
-
-
-
     </div>
 
 
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 </body>
 
