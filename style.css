@@ -30,15 +30,22 @@ li a:hover:not(.active) {
     height: 50%;
 }
 
+.icon {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {display: none;}
+    .icon {display: '';}
+    .navbar li:not(:first-child) {display: none;}
     .navbar a.icon {
       float: right;
       display: block;
     }
+
   }
 
   @media screen and (max-width: 600px) {
+    .icon {display: '';}
     .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
       position: absolute;
