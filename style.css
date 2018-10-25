@@ -1,4 +1,9 @@
 
+.header {
+    position: relative;
+    top: 0;
+}
+
 .home {
     float: left;
 }
@@ -40,13 +45,16 @@ close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .navbar a {display: none;}
     #icon {
-      /* float: right; */
+      float: right;
+      color: black;
+      background-color: #f3f3f3;
+      border: 1px solid #e7e7e7;
       display: block;
-      position: fixed;
+      padding: 14px 16px;
+      /* position: relative;
       right: 15px;
-      top: 0;
+      top: 0; */
     }
-
   }
 
 /* The "responsive" class is added to the topnav with JavaScript when the 
