@@ -1,3 +1,6 @@
+body {
+    background-image: url('../images/fresh_snow.png');
+}
 
 .header {
     position: relative;
