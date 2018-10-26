@@ -47,6 +47,19 @@ h1 a:hover:not(.active) {
     border-bottom: 1px solid #f3f3f3;
 }
 
+.portrait {
+    overflow: auto;
+    clear: both;
+    float: left;
+}
+
+.content {
+    overflow: auto;
+    clear: both;
+    vertical-align: baseline;
+    line-height: 32px;
+}
+
 #icon {
     display: none;
 }
