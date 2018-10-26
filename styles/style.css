@@ -23,8 +23,8 @@ h1 a:hover:not(.active) {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
-    border: 1px solid #e7e7e7;
+    /* background-color: #f3f3f3;
+    border: 1px solid #e7e7e7; */
 }
 
 .navbar a {
@@ -94,7 +94,13 @@ screens (display the links vertically instead of horizontally) */
     .navbar.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
       width: 100%;
+      /* border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7; */
+    }
+    
+    .navbar.responsive {
+        border: 1px solid #e7e7e7;
     }
   }
