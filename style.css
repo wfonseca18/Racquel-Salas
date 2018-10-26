@@ -27,7 +27,7 @@ h1 a:hover:not(.active) {
     float: left;
 }
 
-.navbar a:hover:not(.active) {
+.navbar a:hover {
     background-color: #ddd;
     text-decoration: none;
 }
@@ -71,5 +71,3 @@ screens (display the links vertically instead of horizontally) */
       width: 100%;
     }
   }
-
-
