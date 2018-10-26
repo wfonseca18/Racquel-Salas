@@ -6,4 +6,5 @@ if (screen.width >= 1024) {
 
 $('#icon').on('click', function(){
     $('.px-3').toggleClass('responsive');
+    $('.icon').toggleClass('active');
 })
